@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Pesquisa de CEP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pesquisa de CEP</h1>
+      <p>Informe o CEP para buscar informações sobre o endereço.</p>
+      <form>
+        <div class="form-group">
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" />
+        </div>
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" readonly />
+        </div>
+        <div class="form-group">
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairro" readonly />
+        </div>
+        <div class="form-group">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" readonly />
+        </div>
+        <div class="form-group">
+          <label for="estado">Estado:</label>
+          <input type="text" id="estado" readonly />
+        </div>
+        <button type="button" id="btn-pesquisar">Pesquisar</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
